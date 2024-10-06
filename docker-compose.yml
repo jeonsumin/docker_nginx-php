@@ -31,7 +31,7 @@ services:
 
   redis:
     container_name: container-redis
-    image: redis:7.4.0
+    image: redis:7.4
     build:
       context: ./docker-redis
       dockerfile: dockerfile
